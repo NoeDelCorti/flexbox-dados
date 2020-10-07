@@ -1,0 +1,167 @@
+body{
+
+    background-color: rgb(212, 209, 209);
+    margin: auto;
+    margin-top: 20%;
+
+
+/* CONTENEDOR GENERAL */
+
+}
+.container{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    width: 100%;
+       
+}
+
+/* DADOS EN GENERAL */
+
+.dado{
+
+    display: flex;
+    width: 150px;
+    height: 150px;
+    border-radius: 15px;
+    background-color: #ffff;
+    padding: 25px;
+    box-sizing: border-box;
+      
+}
+
+.linea{
+
+    display: flex;
+    width: 100%;
+}
+
+.punto{
+
+    width: 20px;
+    height: 20px;
+    background-color: black;
+    border-radius: 50%;
+}
+
+/* DADO 1*/
+
+.uno{
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* DADO 2 */
+
+.dos{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.dos .linea:nth-child(2){
+
+    justify-content: flex-end; 
+}
+
+
+/* DADO 3 */
+
+.tres{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;  
+}
+
+.tres .linea:nth-child(1){
+
+    justify-content: flex-end;
+}
+.tres .linea:nth-child(2){
+
+    justify-content: center;
+}
+
+/* DADO 4 */
+
+.cuatro{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.cuatro .linea:nth-child(2){
+    
+    justify-content: space-between;
+}
+
+.cuatro .linea:nth-child(1){
+    justify-content: space-between;
+}
+
+
+/* DADO 5 */
+
+.cinco{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.cinco .linea{
+
+    display: flex;
+    justify-content: space-between;
+}
+
+#medio{
+
+    display: flex;
+    justify-content: center;
+}
+
+
+/* DADO 6 */
+
+.seis{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.seis .linea{
+
+    justify-content: space-between;
+}
+
+
+/* FINAL :) */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
